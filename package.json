@@ -1,15 +1,18 @@
 {
-  "name": "responsive-portfolio-website",
-  "version": "1.0.0",
-  "description": "Responsive portfolio website",
-  "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-  },
-  "keywords": [],
-  "author": "Nigel Salvador",
-  "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.13.0"
-  }
+	"name": "responsive-portfolio-website",
+	"version": "1.0.0",
+	"description": "Responsive portfolio website",
+	"main": "index.js",
+	"homepage": "https://nsalvador.github.io/modern-portfolio",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive",
+		"deploy": "gh-pages -d dist"
+	},
+	"keywords": [],
+	"author": "Nigel Salvador",
+	"license": "MIT",
+	"dependencies": {
+		"gh-pages": "^2.1.1",
+		"node-sass": "^4.13.0"
+	}
 }
